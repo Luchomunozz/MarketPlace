@@ -11,11 +11,9 @@ body {
 }
 
 header {
-  width: 51cm;
-  height: 10%;
   display: flex;
-  justify-content: center;
-  background-color: #11c2da;
+  width: 99.9vw;
+  margin-right: 2.1rem;
 }
 
 #h1-title {
@@ -32,23 +30,41 @@ header {
 }
 
 #back{
-  height: 29.4vh;
-  width: 51cm;
+  height: 17rem;
+  margin-right: 2.1rem;
+}
+
+#background{
+  width: 119.7rem;
+  height: 50rem;
 }
 
 .Banner {
-    height: 3.5cm;
-    width: 51cm;
+    height: 8rem;
+    width: 119.9rem;
+    margin-right: 2.1rem;
     background: rgb(234,234,234);
     border-bottom: 2px solid rgb(195,195,195);
     margin-bottom: 4%;
 }
 
-.sloganList{
-  margin: 0;
-  padding: 15px;
-  padding-left: 160px;
+.Banner2{
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.sloganList{
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
+
+li {
+  margin: 7rem;
+  list-style: none;
 }
 
 .slogan{
@@ -61,7 +77,7 @@ header {
 }
 
 #main {
-  width: 100%;
+  width: 80%;
   height: 77%;
   display: flex;
   justify-content: center;  
@@ -91,7 +107,7 @@ header {
 #h2 {
   color: #000000;
   margin: 2rem;
-  margin-left: 5rem;  
+  margin-left: 6rem;  
   width: 100%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -135,7 +151,11 @@ header {
   color: #ff2b60;
 }
 
-#xbox{
+.img-banner{
+  width: 4rem;
+}
+
+/*#xbox{
   width: 2.8cm;
 }
 
@@ -161,7 +181,7 @@ header {
   margin-left: 28vh;
   margin-top: -10vh;
   width: 2.8cm;
-}
+}*/
 
 #price{
   margin-top: 12vh;
@@ -174,6 +194,7 @@ footer {
   height: 10%;
   background-color: #11c2da;
   margin-top: 0.5rem;
+  margin-right: 2.1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
