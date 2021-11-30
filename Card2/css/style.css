@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background: #536dff;
+  padding: 20px;
+  color: #FFFF;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#back{
+  height: 17rem;
+  margin-right: 2.1rem;
+}
+
+#background{
+  width: 93.7rem;
+  height: 45rem;
+}
+
+
+.container_products {
+  max-width: 2000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #536dff;
+  background-color: #536dff;
+  border-color: rgb(0, 0, 0);
+}
+
+.button {
+  padding: 10px;
+  background: #536dff;
+  border: none;
+  border-radius: 10px;
+  color: #FFFF;
+  font-size: 17px;
+  margin: 5px 0 0 0;
+}
+
+
+.cart {
+  position: absolute;
+  padding: 10px;
+  width: 300px;
+  height: 90vh;
+  right: 0;
+  top: 59px;
+  background: #ffffff;
+  border-left: 2px solid #efefef;
+}
+
+.ocult {
+  display: none;
+}
+
+.btn_carrito{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn_carrito:hover {
+  cursor: pointer;
+}
+
+.card_producto {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #536dff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+#img-card{
+  width: 20rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: rgb(17, 165, 140);
+}
+
+#subtitle{
+  margin: 10px;
+  margin-left: 10rem;
+  color: #ffffff;
+  font-family: fantasy;
+  font-size: 4rem;
+  height: 26.7rem;
+}
+
+#title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+}
+
+.Banner {
+  height: 8rem;
+  width: 93.7rem;
+  margin-right: 2.1rem;
+  background: rgb(234,234,234);
+  border-bottom: 2px solid rgb(195,195,195);
+  margin-bottom: 4%;
+}
+
+.Banner2{
+width: 100%;
+height: 8rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.sloganList{
+width: 100%;
+display: flex;
+justify-content: center;  
+}
+
+li {
+margin: 7rem;
+list-style: none;
+}
+
+.slogan{
+margin-right: 148px;
+line-height: 70px;
+list-style: none;
+display: inline-block;
+text-align: center;
+display: inline-block;
+}
+
+.img-banner{
+  width: 4rem;
+}
+
+#Nomjuego{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#PrecioJuego{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.button{
+  background-color: rgb(17, 165, 140);
+  margin-left: 5rem;
+}
+
+.button :hover{
+  cursor: pointer;
+}
